@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cardioia-mvp"
+version = "2.0.0"
+description = "CardioIA: IoT Wokwi, FastAPI, ML, agentes, React e React Native"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "openai-agents>=0.2.0,<1.0",
+  "pydantic>=2.7,<3",
+  "pandas>=2.0,<3",
+  "scikit-learn>=1.4,<2",
+  "joblib>=1.3,<2",
+  "python-dotenv>=1.0,<2",
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.30,<1",
+]
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "httpx>=0.27,<1", "ruff>=0.6,<1"]
+docs = ["reportlab>=4,<5", "matplotlib>=3.8,<4"]
+[project.scripts]
+cardioia = "cardioia.cli:main"
+cardioia-api = "cardioia.run_api:main"
+[tool.setuptools.packages.find]
+include = ["cardioia*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+[tool.ruff]
+line-length = 110
+target-version = "py311"

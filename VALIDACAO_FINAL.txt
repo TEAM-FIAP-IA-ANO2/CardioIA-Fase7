@@ -1,0 +1,12 @@
+CARDIOIA 2.0 — VALIDAÇÃO FINAL
+
+- Python compileall: OK
+- pytest: 33 testes aprovados
+- FastAPI /health: HTTP 200
+- Ingestão IoT + modelo + protocolos + SQLite: HTTP 201, faixa ALTO
+- CLI local: faixa ALTO, probabilidade 0.973333, 4 protocolos
+- JSON de Wokwi, Web, Mobile e protocolos: válidos
+- TypeScript/TSX: todos os arquivos transpilaram sem erro sintático
+- Build npm: não executado no contêiner por bloqueio HTTP 403 do proxy de pacotes; comandos de CI e dependências estão declarados para execução em ambiente com acesso ao registro npm.
+
+Aviso: dados, limites e protocolos sintéticos; uso exclusivamente acadêmico.

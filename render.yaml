@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: cardioia-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: CARDIOIA_DEFAULT_MODE
+        value: local
+      - key: CARDIOIA_DEVICE_API_KEY
+        sync: false
+      - key: CARDIOIA_CORS_ORIGINS
+        sync: false

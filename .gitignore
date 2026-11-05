@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.runtime/
+.env
+backend/.env
+web/.env
+mobile/.env
+firmware/wokwi/config.py
+node_modules/
+dist/
+.expo/
+*.zip
+.DS_Store
