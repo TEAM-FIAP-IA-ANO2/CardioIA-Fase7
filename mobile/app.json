@@ -1,0 +1,1 @@
+{"expo":{"name":"CardioIA","slug":"cardioia-mobile","version":"2.0.0","orientation":"portrait","scheme":"cardioia","userInterfaceStyle":"dark","plugins":["expo-router"],"ios":{"supportsTablet":true,"bundleIdentifier":"br.com.fiap.cardioia"},"android":{"package":"br.com.fiap.cardioia","adaptiveIcon":{"backgroundColor":"#06131e"}},"web":{"bundler":"metro"},"extra":{"router":{}}}}

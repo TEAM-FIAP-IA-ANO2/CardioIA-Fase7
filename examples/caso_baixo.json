@@ -1,0 +1,12 @@
+{
+  "idade_media": 35,
+  "carga_sistema": 45,
+  "tempo_espera": 20,
+  "fc_media": 76,
+  "spo2_media": 98,
+  "pa_sistolica": 120,
+  "temperatura": 36.5,
+  "densidade_eventos": 1,
+  "eventos_24h": 0,
+  "disponibilidade_recursos": 90
+}

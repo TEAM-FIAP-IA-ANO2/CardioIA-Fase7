@@ -1,0 +1,12 @@
+[
+  {"protocol_id":"P01","action":"Iniciar suporte respiratório simulado","reason":"SpO2 média abaixo de 88%","severity":"critica"},
+  {"protocol_id":"P02","action":"Abrir unidades temporárias simuladas","reason":"Carga do sistema acima de 85%","severity":"atencao"},
+  {"protocol_id":"P03","action":"Iniciar monitoramento intensivo simulado","reason":"Frequência cardíaca média acima de 120","severity":"critica"},
+  {"protocol_id":"P04","action":"Ativar equipe de resposta rápida simulada","reason":"Mais de cinco eventos nas últimas 24 horas","severity":"critica"},
+  {"protocol_id":"P05","action":"Redistribuir insumos simulados","reason":"Disponibilidade de recursos abaixo de 30%","severity":"atencao"},
+  {"protocol_id":"P06","action":"Priorizar triagem emergencial simulada","reason":"Tempo de espera acima de 90 minutos","severity":"atencao"},
+  {"protocol_id":"P07","action":"Iniciar protocolo infeccioso simulado","reason":"Temperatura média acima de 38°C","severity":"atencao"},
+  {"protocol_id":"P08","action":"Ativar plano de contingência simulado","reason":"Densidade de eventos acima de seis","severity":"atencao"},
+  {"protocol_id":"P09","action":"Iniciar protocolo de choque simulado","reason":"Pressão arterial sistólica abaixo de 90","severity":"critica"},
+  {"protocol_id":"P10","action":"Ativar estado de emergência simulado","reason":"Faixa de risco sistêmico classificada como ALTO","severity":"critica"}
+]
